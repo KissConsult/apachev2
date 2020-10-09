@@ -36,8 +36,13 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 ![worker-pool](/worker-pool.png)
 * Choose **Master Service Endpoint** ,  In VRF-enabled accounts, you can choose private-only to make your master accessible on the private network or via VPN tunnel. Choose public-only to make your master publicly accessible. When you have a VRF-enabled account, your cluster is set up by default to use both private and public endpoints. For more information visit [endpoints].
 ![endpoints](/endpoints.png)
-* Give cluster a **name** then click **Create** - it will take approximately 10-20 minutes to provision the cluster
-![create](/create.png)
+* Give cluster a **name** 
+![name-new](/name-new.png)
+* Give desired **tags** to your cluster , for more information visit [tags]
+![tags-new](/tags-new.png)
+* Click **create**
+![create-new](/create-new.png)
+
 * Wait for you cluster do be provisioned 
 ![cluster-prepare](/cluster-prepare.png)
 * Your cluster is ready for usage 
@@ -117,3 +122,4 @@ You successfully deployed an Apache webserver on IBM Cloud !
    [VRF]: <https://cloud.ibm.com/docs/dl?topic=dl-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud>
    [enable Vlan spanning]: <https://cloud.ibm.com/docs/vlans?topic=vlans-vlan-spanning#vlan-spanning>
    [endpoints]: <https://cloud.ibm.com/docs/account?topic=account-service-endpoints-overview>
+   [tags]: <https://cloud.ibm.com/docs/account?topic=account-tag>
