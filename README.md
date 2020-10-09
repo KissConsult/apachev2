@@ -84,6 +84,7 @@ We will deploy  Apache on our cluster
 * Give a unique **name** to workspace , which you can easily recognize
 ![Name](/name.png)
 * After finishing everything , **tick** the box next to the agreements and click **install**
+
 ![Install](/install.png)
 
 ## Verify Apache installation
