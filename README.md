@@ -28,7 +28,7 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
   * Choose **Single** or **Multizone** , in single zone your data is only kept in on datacenter , on the other hand with Multizone it is distributed to multiple zones , thus  safer in an unforseen zone failure 
 ![avail](/location-avail.png)
   * Choose a **Worker Zone** if using Single zones or **Metro** if Multizone
- ![worker](/location-worker) 
+ ![worker](/location-worker.png) 
  
 * Choose a **Worker node setup** or use the preselected one , set **Worker node amount per zone**
 ![worker-pool](/worker-pool.png)
