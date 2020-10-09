@@ -91,6 +91,13 @@ We will deploy  Apache on our cluster
 
 ![Install](/install.png)
 
+* The apache workspace will start installing , wait a couple of minutes 
+![apache-install](/apache-lodaing.png)
+
+* You apache workspace has been successfully deployed
+
+![apache-finsihed](/apache-finished.png)
+
 ## Verify Apache installation
 
 * Go to [Resources] in your browser 
