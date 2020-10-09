@@ -30,9 +30,12 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
   * Choose a **Worker Zone** if using Single zones or **Metro** if Multizone
  ![worker](/location-worker.png) 
     * If you wish to use Multizone please set up your account with [VRF] or [enable Vlan spanning]
+    * If at your current location selection , there is no available Virtual LAN , a new Vlan will be created for you 
  
 * Choose a **Worker node setup** or use the preselected one , set **Worker node amount per zone**
 ![worker-pool](/worker-pool.png)
+* Choose **Master Service Endpoint** ,  In VRF-enabled accounts, you can choose private-only to make your master accessible on the private network or via VPN tunnel. Choose public-only to make your master publicly accessible. When you have a VRF-enabled account, your cluster is set up by default to use both private and public endpoints. For more information visit [endpoints].
+![endpoints](/endpoints.png)
 * Give cluster a **name** then click **Create** - it will take approximately 10-20 minutes to provision the cluster
 ![create](/create.png)
 * Wait for you cluster do be provisioned 
@@ -113,3 +116,4 @@ You successfully deployed an Apache webserver on IBM Cloud !
    [Locations]: <https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones#zones>
    [VRF]: <https://cloud.ibm.com/docs/dl?topic=dl-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud>
    [enable Vlan spanning]: <https://cloud.ibm.com/docs/vlans?topic=vlans-vlan-spanning#vlan-spanning>
+   [endpoints]: <https://cloud.ibm.com/docs/account?topic=account-service-endpoints-overview>
