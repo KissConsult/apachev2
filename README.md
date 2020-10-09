@@ -83,6 +83,10 @@ We will deploy  Apache on our cluster
 ![Namespace](/namespace.png)
 * Give a unique **name** to workspace , which you can easily recognize
 ![Name](/name.png)
+* Give **tags** to your apache workspace , for more information visit [tags]
+
+![apache-tags](/apache-tags.png)
+
 * After finishing everything , **tick** the box next to the agreements and click **install**
 
 ![Install](/install.png)
