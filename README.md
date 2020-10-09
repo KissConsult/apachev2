@@ -32,9 +32,12 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
  
 * Choose a **Worker node setup** or use the preselected one , set **Worker node amount per zone**
 ![worker-pool](/worker-pool.png)
-* Give cluster a **name** 
-* Click **Create** - it will take approximately 10-20 minutes to provision the cluster
+* Give cluster a **name** then click **Create** - it will take approximately 10-20 minutes to provision the cluster
 ![create](/create.png)
+* Wait for you cluster do be provisioned 
+![cluster-prepare](/cluster-prepare.png)
+* Your cluster is ready for usage 
+![cluster-ready](/cluster-ready.png)
 
 ## Step 2 deploy IBM Cloud Block Storage plug-in
 The Block Storage plug-in is a persistent, high-performance iSCSI storage that you can add to your apps by using Kubernetes Persistent Volumes (PVs).
