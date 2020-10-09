@@ -1,6 +1,11 @@
 # Get Apache on IBM Cloud
 
-[IBM Cloud] offers the most open and secure public cloud for business 
+[IBM Cloud] offers the most open and secure public cloud for business . You should have an IBM Cloud account, otherwise you can [register here].
+At the end of the tutorial you will have a cluster with an Apache up and runnning.
+
+1. We will provision a new Kubernetes Cluster for you if ,you already have one skip to step **2**
+2. We will deploy  the IBM Cloud Block Storage plug-in ,if already have it skip to step **3**
+3. Apache deployment 
 
 ## Step 1 provision Kubernetes Cluster
 
@@ -89,3 +94,4 @@ You successfully deployed an Apache webserver on IBM Cloud !
  
    [IBM Cloud]: <http://cloud.ibm.com>
    [Resources]: <http://cloud.ibm.com/resources>
+   [Register Here]: <http://cloud.ibm.com/registration>
