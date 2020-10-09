@@ -64,7 +64,7 @@ The Block Storage plug-in is a persistent, high-performance iSCSI storage that y
 ![block-c](/block-cluster.png)
 * Give a **name** to this workspace 
 * Click **install** and wait for the deployment
-![block-create](/block-storage-create)
+![block-create](/block-storage-create.png)
  
 
 ## Step 3 deploy Apache
