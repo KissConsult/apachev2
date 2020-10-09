@@ -60,7 +60,7 @@ The Block Storage plug-in is a persistent, high-performance iSCSI storage that y
 ![Block](/block-search.png)
 
 * On the application page Click in the _dot_ next to the cluster , you wish to use
-* Click on  **Enter or Select Namespace** and choose the default Namespace or use a custom one 
+* Click on  **Enter or Select Namespace** and choose the default Namespace or use a custom one ( if you get error please wait 30 minutes for the cluster to finalize)
 ![block-c](/block-cluster.png)
 * Give a **name** to this workspace 
 * Click **install** and wait for the deployment
@@ -111,8 +111,14 @@ We will deploy  Apache on our cluster
 ![Resourcelect](/resource-select.png)
 
 * Now you are at you clusters overview ,here Click on **Actions** and **Web terminal** from the dropdown menu
+
+
 ![Actions](/cluster-main.png)
+
 * Click **install** - wait couple of minutes 
+
+![terminal-install](/terminal-install.jpg)
+
 * Click on **Actions**
 * Click **Web terminal** --> a terminal will open up
 
