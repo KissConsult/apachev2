@@ -14,17 +14,23 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 * Search for **Kubernetes Service** and click on it
 ![Kubernetes](/kubernetes-select.png)
 * You are now at the Kubernetes deployment page ,you need to specify some details about the cluster 
-  - Choose **classic** or **VPC** , read the [docs] and choose the most suitable type for yourself 
- ![VPC](/classic-vpc.png)
-  - Choose **Geography** (continent)
-  - Choose **Single** or **Multizone** 
-  - Choose **Worker Zone** (city)
+* Choose a plan **standard** or **free** , the free plan only has one worker node and no subnet , to provision a standard cluster , you will need to upgrade you account to Pay-As-You-Go 
+-To upgrade to a Pay-As-You-Go account, complete the following steps.
+
+  -In the console, go to Manage > Account.
+  -Select Account settings, and click Add credit card.
+  -Enter your payment information, click Next, and submit your information
+  * Choose **classic** or **VPC** , read the [docs] and choose the most suitable type for yourself 
+ ![VPC](/infra-select.png)
+  * Choose **Geography** (continent)
+  * Choose **Single** or **Multizone** 
+  * Choose **Worker Zone** (city)
  ![location](location.png) 
  
-  - Choose a **Worker node setup** or use the preselected one , set **Worker node amount per zone**
+  * Choose a **Worker node setup** or use the preselected one , set **Worker node amount per zone**
 ![worker-pool](/worker-pool.png)
-  - Give cluster a **name** 
-  - Click **Create** - it will take approximately 10-20 minutes to provision the cluster
+  * Give cluster a **name** 
+  * Click **Create** - it will take approximately 10-20 minutes to provision the cluster
 ![create](/create.png)
 
 ## Step 2 deploy IBM Cloud Block Storage plug-in
