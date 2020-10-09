@@ -14,7 +14,7 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 * Search for **Kubernetes Service** and click on it
 ![Kubernetes](/kubernetes-select.png)
 * You are now at the Kubernetes deployment page ,you need to specify some details about the cluster 
-  - Choose **classic** or **VPC** 
+  - Choose **classic** or **VPC** , read the [docs] and choose the most suitable type for yourself 
  ![VPC](/classic-vpc.png)
   - Choose **Geography** (continent)
   - Choose **Single** or **Multizone** 
@@ -95,3 +95,4 @@ You successfully deployed an Apache webserver on IBM Cloud !
    [IBM Cloud]: <http://cloud.ibm.com>
    [Resources]: <http://cloud.ibm.com/resources>
    [Register Here]: <http://cloud.ibm.com/registration>
+   [docs]: <https://cloud.ibm.com/docs/containers?topic=containers-infrastructure_providers>
