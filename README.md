@@ -12,7 +12,7 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 * Click the **Catalog** button on the top 
 * Select **Service** from the catalog
 * Search for **Kubernetes Service** and click on it
-![Kubernetes](/Kubernetes-select.png)
+![Kubernetes](/kubernetes-select.png)
 * You are now at the Kubernetes deployment page ,you need to specify some details about the cluster 
   - Choose **classic** or **VPC** 
  ![VPC](/classic-vpc.png)
