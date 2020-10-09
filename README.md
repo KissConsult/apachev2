@@ -122,10 +122,14 @@ We will deploy  Apache on our cluster
 * Click on **Actions**
 * Click **Web terminal** --> a terminal will open up
 
-* **Type** in the terminal:
+* **Type** in the terminal , wher change your-namespace to the namespace you choose at the deployment setup:
  ```sh
-$ kubectl get service --all-namespaces
+$ kubectl get service -n _your-namespace_
 ```
+ ```sh
+$ kubectl get pod -n _your-namespace_ -o wide 
+```
+
 ![kubectl](/kubectl.png)
 * Running Apache service will be visible 
 * Copy the **External ip** , you can access the website on this IP
