@@ -39,7 +39,8 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 * Give cluster a **name** 
 ![name-new](/name-new.png)
 * Give desired **tags** to your cluster , for more information visit [tags]
-![tags-new](/tags-new.png)
+
+![tags-new](/tasg-new.png)
 * Click **create**
 ![create-new](/create-new.png)
 
