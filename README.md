@@ -36,7 +36,8 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 ![worker-pool](/worker-pool.png)
 * Choose **Master Service Endpoint** ,  In VRF-enabled accounts, you can choose private-only to make your master accessible on the private network or via VPN tunnel. Choose public-only to make your master publicly accessible. When you have a VRF-enabled account, your cluster is set up by default to use both private and public endpoints. For more information visit [endpoints].
 ![endpoints](/endpoints.png)
-* Give cluster a **name** 
+* Give cluster a **name**
+
 ![name-new](/name-new.png)
 * Give desired **tags** to your cluster , for more information visit [tags]
 
@@ -44,7 +45,7 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 * Click **create**
 ![create-new](/create-new.png)
 
-* Wait for you cluster do be provisioned 
+* Wait for you cluster to be provisioned 
 ![cluster-prepare](/cluster-prepare.png)
 * Your cluster is ready for usage 
 
