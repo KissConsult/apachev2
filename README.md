@@ -22,10 +22,13 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
   * Enter your payment information, click Next, and submit your information
 * Choose **classic** or **VPC** , read the [docs] and choose the most suitable type for yourself 
  ![VPC](/infra-select.png)
+* Now choose your location settings , for more information please visit [Locations]
 * Choose **Geography** (continent)
-* Choose **Single** or **Multizone** 
+![continent](/location-geo.png)
+* Choose **Single** or **Multizone** , in single zone your data is only kept in on datacenter , on the other hand with Multizone it is distributed to multiple zones , thus  safer in an unforseen zone failure 
+![avail](/location-avail.png)
 * Choose **Worker Zone** (city)
- ![location](location.png) 
+ ![worker](/location-worker) 
  
 * Choose a **Worker node setup** or use the preselected one , set **Worker node amount per zone**
 ![worker-pool](/worker-pool.png)
@@ -102,3 +105,4 @@ You successfully deployed an Apache webserver on IBM Cloud !
    [Resources]: <http://cloud.ibm.com/resources>
    [Register Here]: <http://cloud.ibm.com/registration>
    [docs]: <https://cloud.ibm.com/docs/containers?topic=containers-infrastructure_providers>
+   [Locations]: <https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones#zones>
