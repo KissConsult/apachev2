@@ -87,13 +87,17 @@ We will deploy  Apache on our cluster
 
 ![apache-tags](/apache-tags.png)
 
+* Click on **Parameters with default values** , You can set deployment values or use the default ones
+
+![def-val](/deploy-values.png)
+
 * After finishing everything , **tick** the box next to the agreements and click **install**
 
 ![Install](/install.png)
 
 * The apache workspace will start installing , wait a couple of minutes 
 
-![apache-install](/apache-lodaing.jpg)
+![apache-install](/apache-loading.jpg)
 
 * You apache workspace has been successfully deployed
 
