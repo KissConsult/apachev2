@@ -38,6 +38,7 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 * Wait for you cluster do be provisioned 
 ![cluster-prepare](/cluster-prepare.png)
 * Your cluster is ready for usage 
+
 ![cluster-ready](/cluster-done.png)
 
 ## Step 2 deploy IBM Cloud Block Storage plug-in
