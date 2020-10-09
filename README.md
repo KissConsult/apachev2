@@ -29,6 +29,7 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 ![avail](/location-avail.png)
   * Choose a **Worker Zone** if using Single zones or **Metro** if Multizone
  ![worker](/location-worker.png) 
+    * If you wish to use Multizone please set up your account with [VRF] or [enable Vlan spanning]
  
 * Choose a **Worker node setup** or use the preselected one , set **Worker node amount per zone**
 ![worker-pool](/worker-pool.png)
@@ -37,7 +38,7 @@ At the end of the tutorial you will have a cluster with an Apache up and runnnin
 * Wait for you cluster do be provisioned 
 ![cluster-prepare](/cluster-prepare.png)
 * Your cluster is ready for usage 
-![cluster-ready](/cluster-ready.png)
+![cluster-ready](/cluster-done.png)
 
 ## Step 2 deploy IBM Cloud Block Storage plug-in
 The Block Storage plug-in is a persistent, high-performance iSCSI storage that you can add to your apps by using Kubernetes Persistent Volumes (PVs).
@@ -109,3 +110,5 @@ You successfully deployed an Apache webserver on IBM Cloud !
    [Register Here]: <http://cloud.ibm.com/registration>
    [docs]: <https://cloud.ibm.com/docs/containers?topic=containers-infrastructure_providers>
    [Locations]: <https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones#zones>
+   [VRF]: <https://cloud.ibm.com/docs/dl?topic=dl-overview-of-virtual-routing-and-forwarding-vrf-on-ibm-cloud>
+   [enable Vlan spanning]: <https://cloud.ibm.com/docs/vlans?topic=vlans-vlan-spanning#vlan-spanning>
