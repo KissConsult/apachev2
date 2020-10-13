@@ -149,7 +149,7 @@ $ kubectl get service -n NAMESPACE
 
 ![works](/apache-works.png)
 
-You successfully deployed an Apache webserver on IBM Cloud ! 
+You successfully deployed an Apache webserver on IBM Cloud! 
 
 
 
